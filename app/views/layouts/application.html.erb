@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myapp</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+<footer>
+  Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache V2 License</a>
+</footer>
+</html>
