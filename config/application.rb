@@ -58,5 +58,7 @@ module Myapp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.secret_token = "952f7f7d8cbee19377ee19954ab800fe22177fdd5efee5aa69fd6af15c0a657221291cdbc963066e41c80081796be9fe70902cc38f58b6d368cabe5583a45e1c"
   end
 end
