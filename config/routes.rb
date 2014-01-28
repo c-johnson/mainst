@@ -1,4 +1,11 @@
 Myapp::Application.routes.draw do
+
+  get '/', to: 'main#index'
+  get '/index', to: 'main#index'
+  get '/services', to: 'main#services'
+  get '/about', to: 'main#about'
+  get '/contact', to: 'main#contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
