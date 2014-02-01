@@ -41,7 +41,7 @@
       </div><!-- /.container -->
     </nav>
     
-    <div class="main-content">
+    <div class="main-content <%= 'container' if action_name != 'index' %>">
 
       <%= yield %>
       
