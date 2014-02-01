@@ -8,6 +8,10 @@ footer {
   & > section {
     padding: 4rem 0;
     border-bottom: 1px solid $lightGray;
+
+    & > .title {
+      margin-bottom: 2rem;
+    }
   }
 }
 

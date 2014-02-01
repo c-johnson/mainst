@@ -1,5 +1,9 @@
 @import "globals/vars";
 
+img {
+  border: 1px solid $gray;
+}
+
 .btn {
   border-radius: 10px;
   padding: 10px 15px;
