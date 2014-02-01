@@ -1,0 +1,17 @@
+@import "globals/vars";
+
+.inline {
+  display: inline;
+}
+
+.green {
+  color: $green !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.border {
+  border: 1px solid $gray;
+}

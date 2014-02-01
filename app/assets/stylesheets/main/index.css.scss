@@ -1,0 +1,46 @@
+@import "globals/vars";
+
+.main-content {
+  hr {
+    margin: 30px 0;
+  }
+}
+
+.hero {
+  text-align: center;
+  border-bottom: 1px solid $lightGray;
+  background: url(/assets/wood-bg.png);
+  margin: 0;
+
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .title {
+    color: black;
+    text-shadow: 1px 0 5px $blue-subtle;
+    font-size: 3rem;
+    max-width: 800px;
+    margin: 1rem auto 2rem;
+    font-weight: 700;
+  }
+}
+
+.intro-sec {
+  img {
+    border-radius: 3px;
+  }
+
+  .intro-emph {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 25.14px;
+    padding-right: 2px;
+  }
+}
+
+.work-sec {
+  img {
+    max-height: 240px;
+  }
+}

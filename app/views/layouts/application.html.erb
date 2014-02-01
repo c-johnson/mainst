@@ -1,17 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Myapp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<%= yield %>
+    <title>Main Street Carpentry -- decks, patios, house frames, and more</title>
 
-</body>
-<footer>
-  Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache V2 License</a>
-</footer>
+    <%= stylesheet_link_tag "application" %>
+    <%= stylesheet_link_tag "main/#{action_name}" %>
+
+    <%= javascript_include_tag "application" %>
+    <%= stylesheet_link_tag "main/#{action_name}" %>
+  </head>
+
+  <body>
+
+    <nav class="navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Main Street Carpentry</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Our Work</a></li>
+            <li><a class="cta btn btn-primary" href="/contact">Call Today!</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div class="main-content">
+
+      <%= yield %>
+      
+    </div><!-- /.container -->
+
+    <footer class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <div>Copyright &copy; Chris Johnson, 2013.  All rights reserved.</div>
+          <div>Thanks to <a href="http://subtlepatterns.com/">Subtle Patterns</a> and <a href="http://startbootstrap.com/">Startup Bootstrap</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+
+  </body>
+
 </html>
