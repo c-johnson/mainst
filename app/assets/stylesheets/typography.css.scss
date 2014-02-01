@@ -5,9 +5,10 @@ p {
   margin-bottom: 2rem;
 }
 
-h2, .title {
+.title, .title * {
   font-size: 2.5rem;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .fancy {
