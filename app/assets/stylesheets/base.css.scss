@@ -1,7 +1,7 @@
 @import "globals/vars";
 
 html {
-  font-size: 55%;
+  font-size: 62.5%;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -14,7 +14,7 @@ html {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
   html {
-    font-size: 80%;
+    font-size: 85%;
   }
 }
 

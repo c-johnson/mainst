@@ -1,16 +1,20 @@
 @import "globals/vars";
 
-p {
-  font-size: 1.1rem;
-}
-
 .btn {
-  border-radius: 0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-transform: uppercase;
 }
 
 .btn-primary {
+  background-image: linear-gradient($green-aux, $green);
+
+  &:hover {
+    background-image: linear-gradient($green-aux-2, $green);
+  }
+
   &, &:active, &:hover {
     background-color: $green;
-    border-color: $green-aux;
+    border-color: $green-br;
   }
 }

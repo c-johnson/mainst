@@ -1,7 +1,15 @@
 @import "globals/vars";
 
+.main-content {
+  & > section {
+    padding: 4rem 0;
+    @include make-row;
+  }
+}
+
 .navbar {
   border-bottom: 1px solid $lightGray;
+  margin-bottom: 0;
 
   * {
     color: black;
@@ -14,15 +22,17 @@
   }
 
   .cta {
-    color: $green;
-    font-size: 1.2rem;
+    @extend .btn, .btn-primary;
+    color: white;
+    padding: 5px 15px;
+    margin: 10px 0 10px 20px;
     font-weight: bold;
   }
 }
 
 .navbar-brand {
   font-family: "Arvo";
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
