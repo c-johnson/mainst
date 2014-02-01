@@ -8,17 +8,16 @@
 
     <title>Main Street Carpentry -- decks, patios, house frames, and more</title>
 
-    <!-- Bootstrap core CSS -->
     <%= stylesheet_link_tag "application" %>
     <%= stylesheet_link_tag "main/#{action_name}" %>
 
-    <!-- Custom CSS for the 'Heroic Features' Template -->
-    <link href="css/heroic-features.css" rel="stylesheet">
+    <%= javascript_include_tag "application" %>
+    <%= stylesheet_link_tag "main/#{action_name}" %>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <nav class="navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -32,7 +31,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="/about">About Us</a></li>
             <li><a href="/services">Our Work</a></li>
             <li><a href="/contact">Call Today</a></li>
@@ -47,9 +46,7 @@
       
     </div><!-- /.container -->
 
-  <!-- javascript -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
 
   </body>
 
