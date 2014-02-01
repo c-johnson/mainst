@@ -1,9 +1,9 @@
 @import "globals/vars";
 
-.main-content {
+.main-content, .container {
   & > section {
     padding: 4rem 0;
-    @include make-row;
+    border-bottom: 1px solid $lightGray;
   }
 }
 
