@@ -1,0 +1,31 @@
+@import "globals/vars";
+
+.navbar {
+  border-bottom: 1px solid $lightGray;
+
+  * {
+    color: black;
+  }
+}
+
+.navbar-nav {
+  a {
+    font-size: 1rem;
+  }
+
+  .cta {
+    color: $green;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+.navbar-brand {
+  font-family: "Arvo";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.icon-bar {
+  background-color: black;
+}

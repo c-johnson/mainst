@@ -1,0 +1,26 @@
+@import "globals/vars";
+
+html {
+  font-size: 55%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+  html {
+    font-size: 100%;
+  }
+}

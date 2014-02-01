@@ -6,34 +6,14 @@
     text-align: center;
 
     .btn {
-      font-size: 20px;
+      font-size: 1.5rem;
     }
   }
 
   .title {
     font-size: 2.5rem;
-    max-width: 900px;
-    margin: 20px auto;
-  }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min) {
-  html {
-    font-size: 70%;
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min) {
-  html {
-    font-size: 85%;
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
-  html {
-    font-size: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    font-weight: 300;
   }
 }
