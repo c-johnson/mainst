@@ -27,6 +27,10 @@
 }
 
 .intro-sec {
+  p {
+    line-height: 2.5rem;
+  }
+
   img {
     border-radius: 3px;
   }
@@ -42,5 +46,12 @@
 .work-sec {
   img {
     max-height: 240px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-md-min) {
+  .intro-sec p {
+    line-height: 1.9rem;
   }
 }
