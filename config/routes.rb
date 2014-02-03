@@ -5,6 +5,7 @@ Myapp::Application.routes.draw do
   get '/services', to: 'main#services'
   get '/about', to: 'main#about'
   get '/contact', to: 'main#contact'
+  post '/contact', to: 'main#send_message'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
