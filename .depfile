@@ -1,0 +1,23 @@
+{
+  "name": "mainst",
+  "host": "192.241.185.104",
+  "target_dir": "/home/chome/gowrk/src/github.com/c-johnson/mainst",
+  "cmds": [
+    "git pull origin master",
+    "npm install",
+    "bower install",
+    "gulp",
+    "nohup revel run $CHOME &"
+  ],
+  "start": {
+    "dir": "/Users/chris/ciqss/proj/chome",
+    "hangs": [
+      "revel run $CHOME",
+      "gulp watch"
+    ],
+    "nohangs": [
+      "open http://localhost:9000",
+      "subl ~/proj/chome"
+    ]
+  }
+}
